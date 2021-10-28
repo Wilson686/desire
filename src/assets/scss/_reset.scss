@@ -30,6 +30,8 @@ blockquote,
 dl,
 dd {
     margin: 0;
+
+    font-size: inherit;
 }
 
 ul[class] {
@@ -37,8 +39,8 @@ ul[class] {
 }
 
 img {
-    max-width: 100%;
     display: block;
+    max-width: 100%;
 }
 
 input,
