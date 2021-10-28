@@ -3,3 +3,41 @@
 @import "reset";
 @import "libs";
 @import "global";
+
+/* Header */
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+
+.header__btn {
+    padding: 0;
+
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* Nav */
+.nav__list {
+    display: flex;
+    padding-right: 15px;
+}
+
+.nav__item {
+    padding-right: 45px;
+    padding-left: 35px;
+}
+
+.nav__link {
+    @extend %title-font;
+    line-height: 22px;
+    color: rgba(#363838, .9);
+}
+
+/* Logo */
+.logo {
+    margin: 0 auto;
+}
