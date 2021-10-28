@@ -6,4 +6,7 @@ $(function(){
 
     /* Слайдер для блока Intro */
     //= components/slick-slider.js
+
+    /* Фильтры для блока gallery */
+    //= components/gallery.js
 });
