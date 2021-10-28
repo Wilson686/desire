@@ -32,3 +32,33 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+.slick-dots {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	li {
+		padding: 0 15px;
+
+		&.slick-active {
+
+			button {
+				background-color: #FFEF35;
+			}
+		}
+	}
+
+	button {
+		width: 8px;
+		height: 8px;
+		padding: 0;
+
+		border-radius: 50%;
+		background-color: $title;
+		border: none;
+		cursor: pointer;
+
+		font-size: 0;
+	}
+}

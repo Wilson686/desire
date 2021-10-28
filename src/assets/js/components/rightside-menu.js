@@ -1,3 +1,4 @@
+/* Логика для rightside-menu */
 const headerBtn = $('#header__btn');
 const rightsideMenu = $("#rightside-menu");
 const rightsideMenuBtn = $("#rightside-menu__close");
